@@ -19,8 +19,7 @@ const createContacts = (req, res) => {
         throw new Error("Please add all the fields");
     }
     res.status(201).json({message : "Create Contact"});
-}
-
+};
 //@desc  get contact by id
 //@route GET /api/contacts/:id
 //@access Public
